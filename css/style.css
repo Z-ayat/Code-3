@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ebeff7 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    background-color: #fff;
+}
+
+.sign-up form input::placeholder {
+    text-align: center;
+}
+
+.slogan {
+    background-color: #252cec;
+}
+
+.slogan i {
+    color: #252cec;
+    background-color: #94f9e2;
+    border-radius: 50%;
+}
+
+.slogan h2 {
+    font-size: 4rem;
+}
+
+.hr-with-text::after {
+    content: "";
+    text-align: center;
+    width: 35%;
+    height: 2px;
+    position: absolute;
+    background-color: #ebeff7;
+    top: 50%;
+    right: 0;
+}
+
+.hr-with-text::before {
+    content: "";
+    text-align: center;
+    width: 35%;
+    height: 2px;
+    position: absolute;
+    background-color: #ebeff7;
+    top: 50%;
+    left: 0;
+}
